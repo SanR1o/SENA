@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLDeployment</id><coordinates><x>170</x><y>40</y><w>900</w><h>440</h></coordinates><panel_attributes>Deployment Web 
+Server</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>220</x><y>170</y><w>250</w><h>80</h></coordinates><panel_attributes>Frontend Service: 
+Angular 19 + Tailwind CSS
+Port:4200</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>700</x><y>160</y><w>250</w><h>100</h></coordinates><panel_attributes>Backend Service:
+Java (21+) + SpringBoot
+Pattern: MVC
+Security: Spring Security - JWT
+Port:8080</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>1090</x><y>180</y><w>120</w><h>50</h></coordinates><panel_attributes>External Software
+MAIA ERP</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>710</x><y>360</y><w>250</w><h>80</h></coordinates><panel_attributes>Database
+Mongo DB
+Port: 27017</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>250</x><y>510</y><w>180</w><h>120</h></coordinates><panel_attributes>Final User PC
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>260</x><y>550</y><w>140</w><h>70</h></coordinates><panel_attributes>symbol=component
+Web browser:
+Chrome, Firefox, 
+Brave, Edge etc.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>200</y><w>260</w><h>40</h></coordinates><panel_attributes>lt=&lt;.&gt;
+Via HTTP</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>250</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;.&gt;
+</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>940</x><y>190</y><w>170</w><h>50</h></coordinates><panel_attributes>lt=&lt;.&gt;
+API
+Connection</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>240</y><w>80</w><h>290</h></coordinates><panel_attributes>lt=&lt;.&gt;
+Via HTTP</panel_attributes><additional_attributes>10;10;10;270</additional_attributes></element></diagram>
